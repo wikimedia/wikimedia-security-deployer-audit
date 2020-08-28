@@ -1,7 +1,6 @@
 # DeployersToGSheet
 
-A Python script to get the current list of active WMF deployers via an admin
-yaml file and store/update within a shared, private Google Sheet. 
+A Python script to get the current list of active WMF deployers via an admin yaml file and store/update within a shared, private Google Sheet.
 
 ## Prerequisites
 
@@ -23,7 +22,7 @@ yaml
 ## Installing
 
 1. ```pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib```
-2. ```git clone "https://gerrit.wikimedia.org/r/wikimedia/security/tooling"```
+2. ```git clone "https://gerrit.wikimedia.org/r/wikimedia/security/deployer-audit"```
 
 ## Usage
 
@@ -43,4 +42,4 @@ yaml
 
 ## License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](../LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
